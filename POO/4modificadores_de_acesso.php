@@ -1,4 +1,4 @@
-<DOCTYPE hmtml>
+<!DOCTYPE html>
 <html>
 <head>
 	<title></title>
@@ -12,7 +12,10 @@
 
 	public , se puede utilizar en todas las clases 
 	protected, desde la misma clase o clases heredadas
-	private  solo se puede utilizar desde la clase, y  desde un metodo,*/
+	private  solo se puede utilizar desde la clase, y  desde un metodo,
+
+	MODIFICADORES DE PROPIEDADES Y METODOS 
+	*/
 
 	 class Facebook{
 		//ATRIBUTOS
@@ -38,26 +41,41 @@
 
 				echo "Nombre: ".$this->nombre."<br>";
 				echo "Edad: ".$this->edad."<br>";
-				echo "constrasenia: ".$this->contrasenia."<br>";
+				echo "constrasenia: ".$this->contrasenia."<br>";  //private pero sirve atravez de un metodo
 
 		}
 
 		private function saludoDeInicio(){
 
-				"Hola Anderson";
+				echo "Hola Anderson";
 
 		}
 
 
 	}
 
-	$obj=new Facebook("Anderson",19,"jajaj");
-	//echo $obj->constrasenia; mostrara un error , ya  q esta PRIVADO 
-	$obj->verInformacion();
 
-	$obj->saludoDeInicio();// muestra un error esta PRIVADO
 
+
+	$obj=new Facebook("Anderson",19,123);	
+
+	//propiedades
+
+	$obj->nombre="Zulmis";   //prop publica
+	$obj->contrasenia=321; 	// prop privada 
+
+	echo $obj->nombre; 		
+	echo $obj->contrasenia;	//ERROR
+
+	/*metodos
+
+	$obj->verInformacion(); //metodo publico 
+	$obj->saludoDeInicio();	   //metodo privado*/
 	
+
+
+
+
 
 ?>
 </body>

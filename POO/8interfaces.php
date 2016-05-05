@@ -3,6 +3,7 @@
 /*INTERFACES
 
 son un conjunto de metodos q utilizaran las clases, conel proposito de solucionar el problema de la herencia multiple
+
 - las clases pueden implementar mas deuna interfaz
 -  cuando una clase  implementa una interfaz , esta debe implemenatar todos los metodos 
 */
@@ -35,7 +36,7 @@ son un conjunto de metodos q utilizaran las clases, conel proposito de soluciona
 
 		}
 
-
+		//METODOS DE LAS INTERFACES
 		public function hablar(){
 
 			echo "Yo hablo";
@@ -46,12 +47,11 @@ son un conjunto de metodos q utilizaran las clases, conel proposito de soluciona
 			echo "Yo corro";
 		}
 
-
-
-
 	}
 
 	$obj=new Persona();
+
+	//echo $obj->nombre;
 	echo $obj->hablar();
 	echo $obj->correr();
 

@@ -54,7 +54,8 @@
 		}
 
 				//OBJETO INSTANCIA DE UNA CLASE
-
+		
+				//Persona obj=new Persona("Pepito","Ann",81); JAVA 
 				 $obj=new Persona("Pepito","Ann",81);  
 
 				 echo $obj->nombre." ".$obj->apellido." ".$obj->edad."</br>";

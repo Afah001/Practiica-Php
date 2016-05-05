@@ -41,7 +41,7 @@ la sublclase o clase hijo puede utilizar atributos y metodos de la clase padre
 
         }
 
-        //no tieene metodos
+        //no tieene metodos---------------------------------------------------------
         
     }
 

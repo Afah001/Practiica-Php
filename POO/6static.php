@@ -13,7 +13,7 @@
 
 		//propiedades
 
-		public cons nombre="Anderson";
+		public const nombre="Anderson";
 
 
 		//metodos
@@ -28,8 +28,11 @@
 
 	}
 
+	echo miClase::$nombre;
+	miClase::miMetodo();  
 
-	echo miClase::nombre;
-	niClase::miMetodo();
+	//$obj=new miClase();  NO SE TUVO Q HACER ESTA LINEA 
+
+	
 
 ?>

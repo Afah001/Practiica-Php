@@ -1,6 +1,6 @@
 <?php
  /*CLASES ABSTRACTAS
-son clases que tienen atributos y metodos , q luego seran heredados por otras sublclases
+son clases que tienen atributos y metodos , q luego seran heredados por otras subclases
 
 - En las clases abstractas no se pueden instanciar 
 - Una clase abstracta obliga a q sus metodos sean utilizados por las sublclases
